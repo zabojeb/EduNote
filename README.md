@@ -58,7 +58,7 @@ Stay tuned and star the repo for more updates!
 
 ## Contributing
 
-Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull request.
+Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull requests 🤗
 
 ## License
 
