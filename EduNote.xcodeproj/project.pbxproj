@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C296F94E2B0A8BC20028170D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C296F94D2B0A8BC20028170D /* AppDelegate.swift */; };
+		C296F9502B0A8BC20028170D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C296F94F2B0A8BC20028170D /* ViewController.swift */; };
+		C296F9522B0A8BC30028170D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C296F9512B0A8BC30028170D /* Assets.xcassets */; };
+		C296F9552B0A8BC30028170D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C296F9532B0A8BC30028170D /* Main.storyboard */; };
+		C296F9612B0A8BC30028170D /* edunoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C296F9602B0A8BC30028170D /* edunoteTests.swift */; };
+		C296F96C2B0A8BC30028170D /* edunoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C296F96B2B0A8BC30028170D /* edunoteUITests.swift */; };
+		C296F97A2B0BA23D0028170D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C296F9792B0BA23D0028170D /* AboutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C296F95D2B0A8BC30028170D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C296F9422B0A8BC20028170D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C296F9492B0A8BC20028170D;
+			remoteInfo = edunote;
+		};
+		C296F9682B0A8BC30028170D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C296F9422B0A8BC20028170D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C296F9492B0A8BC20028170D;
+			remoteInfo = edunote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C296F94A2B0A8BC20028170D /* edunote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edunote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C296F94D2B0A8BC20028170D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C296F94F2B0A8BC20028170D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C296F9512B0A8BC30028170D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C296F9542B0A8BC30028170D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C296F9562B0A8BC30028170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C296F9572B0A8BC30028170D /* edunote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = edunote.entitlements; sourceTree = "<group>"; };
+		C296F95C2B0A8BC30028170D /* edunoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = edunoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C296F9602B0A8BC30028170D /* edunoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edunoteTests.swift; sourceTree = "<group>"; };
+		C296F9622B0A8BC30028170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C296F9672B0A8BC30028170D /* edunoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = edunoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C296F96B2B0A8BC30028170D /* edunoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edunoteUITests.swift; sourceTree = "<group>"; };
+		C296F96D2B0A8BC30028170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C296F9792B0BA23D0028170D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C296F9472B0A8BC20028170D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C296F9592B0A8BC30028170D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C296F9642B0A8BC30028170D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C296F9412B0A8BC20028170D = {
+			isa = PBXGroup;
+			children = (
+				C296F94C2B0A8BC20028170D /* edunote */,
+				C296F95F2B0A8BC30028170D /* edunoteTests */,
+				C296F96A2B0A8BC30028170D /* edunoteUITests */,
+				C296F94B2B0A8BC20028170D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C296F94B2B0A8BC20028170D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C296F94A2B0A8BC20028170D /* edunote.app */,
+				C296F95C2B0A8BC30028170D /* edunoteTests.xctest */,
+				C296F9672B0A8BC30028170D /* edunoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C296F94C2B0A8BC20028170D /* edunote */ = {
+			isa = PBXGroup;
+			children = (
+				C296F94D2B0A8BC20028170D /* AppDelegate.swift */,
+				C296F94F2B0A8BC20028170D /* ViewController.swift */,
+				C296F9512B0A8BC30028170D /* Assets.xcassets */,
+				C296F9532B0A8BC30028170D /* Main.storyboard */,
+				C296F9562B0A8BC30028170D /* Info.plist */,
+				C296F9572B0A8BC30028170D /* edunote.entitlements */,
+				C296F9792B0BA23D0028170D /* AboutViewController.swift */,
+			);
+			path = edunote;
+			sourceTree = "<group>";
+		};
+		C296F95F2B0A8BC30028170D /* edunoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				C296F9602B0A8BC30028170D /* edunoteTests.swift */,
+				C296F9622B0A8BC30028170D /* Info.plist */,
+			);
+			path = edunoteTests;
+			sourceTree = "<group>";
+		};
+		C296F96A2B0A8BC30028170D /* edunoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C296F96B2B0A8BC30028170D /* edunoteUITests.swift */,
+				C296F96D2B0A8BC30028170D /* Info.plist */,
+			);
+			path = edunoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C296F9492B0A8BC20028170D /* edunote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C296F9702B0A8BC30028170D /* Build configuration list for PBXNativeTarget "edunote" */;
+			buildPhases = (
+				C296F9462B0A8BC20028170D /* Sources */,
+				C296F9472B0A8BC20028170D /* Frameworks */,
+				C296F9482B0A8BC20028170D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = edunote;
+			productName = edunote;
+			productReference = C296F94A2B0A8BC20028170D /* edunote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C296F95B2B0A8BC30028170D /* edunoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C296F9732B0A8BC30028170D /* Build configuration list for PBXNativeTarget "edunoteTests" */;
+			buildPhases = (
+				C296F9582B0A8BC30028170D /* Sources */,
+				C296F9592B0A8BC30028170D /* Frameworks */,
+				C296F95A2B0A8BC30028170D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C296F95E2B0A8BC30028170D /* PBXTargetDependency */,
+			);
+			name = edunoteTests;
+			productName = edunoteTests;
+			productReference = C296F95C2B0A8BC30028170D /* edunoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C296F9662B0A8BC30028170D /* edunoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C296F9762B0A8BC30028170D /* Build configuration list for PBXNativeTarget "edunoteUITests" */;
+			buildPhases = (
+				C296F9632B0A8BC30028170D /* Sources */,
+				C296F9642B0A8BC30028170D /* Frameworks */,
+				C296F9652B0A8BC30028170D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C296F9692B0A8BC30028170D /* PBXTargetDependency */,
+			);
+			name = edunoteUITests;
+			productName = edunoteUITests;
+			productReference = C296F9672B0A8BC30028170D /* edunoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C296F9422B0A8BC20028170D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zabojeb;
+				TargetAttributes = {
+					C296F9492B0A8BC20028170D = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					C296F95B2B0A8BC30028170D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C296F9492B0A8BC20028170D;
+					};
+					C296F9662B0A8BC30028170D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C296F9492B0A8BC20028170D;
+					};
+				};
+			};
+			buildConfigurationList = C296F9452B0A8BC20028170D /* Build configuration list for PBXProject "EduNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C296F9412B0A8BC20028170D;
+			productRefGroup = C296F94B2B0A8BC20028170D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C296F9492B0A8BC20028170D /* edunote */,
+				C296F95B2B0A8BC30028170D /* edunoteTests */,
+				C296F9662B0A8BC30028170D /* edunoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C296F9482B0A8BC20028170D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C296F9522B0A8BC30028170D /* Assets.xcassets in Resources */,
+				C296F9552B0A8BC30028170D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C296F95A2B0A8BC30028170D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C296F9652B0A8BC30028170D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C296F9462B0A8BC20028170D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C296F97A2B0BA23D0028170D /* AboutViewController.swift in Sources */,
+				C296F9502B0A8BC20028170D /* ViewController.swift in Sources */,
+				C296F94E2B0A8BC20028170D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C296F9582B0A8BC30028170D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C296F9612B0A8BC30028170D /* edunoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C296F9632B0A8BC30028170D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C296F96C2B0A8BC30028170D /* edunoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C296F95E2B0A8BC30028170D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C296F9492B0A8BC20028170D /* edunote */;
+			targetProxy = C296F95D2B0A8BC30028170D /* PBXContainerItemProxy */;
+		};
+		C296F9692B0A8BC30028170D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C296F9492B0A8BC20028170D /* edunote */;
+			targetProxy = C296F9682B0A8BC30028170D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C296F9532B0A8BC30028170D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C296F9542B0A8BC30028170D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C296F96E2B0A8BC30028170D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C296F96F2B0A8BC30028170D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C296F9712B0A8BC30028170D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = edunote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = zabojeb.edunote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		C296F9722B0A8BC30028170D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = edunote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = zabojeb.edunote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		C296F9742B0A8BC30028170D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = edunoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zabojeb.edunoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/edunote.app/Contents/MacOS/edunote";
+			};
+			name = Debug;
+		};
+		C296F9752B0A8BC30028170D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = edunoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zabojeb.edunoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/edunote.app/Contents/MacOS/edunote";
+			};
+			name = Release;
+		};
+		C296F9772B0A8BC30028170D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = edunoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zabojeb.edunoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = edunote;
+			};
+			name = Debug;
+		};
+		C296F9782B0A8BC30028170D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = edunoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zabojeb.edunoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = edunote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C296F9452B0A8BC20028170D /* Build configuration list for PBXProject "EduNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C296F96E2B0A8BC30028170D /* Debug */,
+				C296F96F2B0A8BC30028170D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C296F9702B0A8BC30028170D /* Build configuration list for PBXNativeTarget "edunote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C296F9712B0A8BC30028170D /* Debug */,
+				C296F9722B0A8BC30028170D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C296F9732B0A8BC30028170D /* Build configuration list for PBXNativeTarget "edunoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C296F9742B0A8BC30028170D /* Debug */,
+				C296F9752B0A8BC30028170D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C296F9762B0A8BC30028170D /* Build configuration list for PBXNativeTarget "edunoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C296F9772B0A8BC30028170D /* Debug */,
+				C296F9782B0A8BC30028170D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C296F9422B0A8BC20028170D /* Project object */;
+}
