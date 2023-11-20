@@ -6,7 +6,7 @@
 
 EduNote is a simple notepad application created to facilitate learning Swift and Mac OS development. It serves as an accessible example for those who want to dive into the basics of Swift programming on the Mac platform. The project is open-source, encouraging contributions and customization.
 
-## Acknowledgments
+## Background
 
 While studying Swift and Mac OS development, I wanted to write some project (notepad), but I didn't find any suitable ones, so I decided to write as simple and understandable notepad as possible.
 
