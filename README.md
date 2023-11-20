@@ -1,3 +1,5 @@
+[🇷🇺 Русский](README.ru.md) | [🇺🇸 English](README.md)
+
 # EduNote - Simple Notepad for Swift study
 
 ![EduNote Logo](https://i.ibb.co/0KS5grr/128.png)
